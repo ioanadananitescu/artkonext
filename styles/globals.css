@@ -84,6 +84,10 @@
 .outline_btn {
   @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
 }
+.amber_btn {
+    @apply rounded-full border-gray-200 bg-primary-orange py-3.5 px-9 text-black transition-all hover:bg-primary-orange/70 hover:text-white text-center text-lg font-inter flex items-center justify-center;
+  
+}
 
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
